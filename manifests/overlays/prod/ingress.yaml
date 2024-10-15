@@ -8,7 +8,7 @@ spec:
   - host: "82224053.ce-aa.kubepia.net"
     http:
       paths:
-      - path: /api/v1/user
+      - path: /
         backend:
           service:
             name: my-82224053
